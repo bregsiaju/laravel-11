@@ -15,22 +15,26 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'name' => 'Resep Makanan',
-            'slug' => 'resep-makanan'
+            'slug' => 'resep-makanan',
+            'color' => 'orange'
         ]);
 
         Category::create([
             'name' => 'Tips Memasak',
-            'slug' => 'tips-memasak'
+            'slug' => 'tips-memasak',
+            'color' => 'primary'
         ]);
 
         Category::create([
             'name' => 'Resep Minuman',
-            'slug' => 'resep-minuman'
+            'slug' => 'resep-minuman',
+            'color' => 'green'
         ]);
 
         Category::create([
             'name' => 'Tempat Kuliner',
-            'slug' => 'tempat-kuliner'
+            'slug' => 'tempat-kuliner',
+            'color' => 'red'
         ]);
     }
 }
